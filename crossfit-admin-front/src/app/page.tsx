@@ -1,11 +1,5 @@
-import Image from "next/image";
+import { NextPage } from "next";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div>
-          Hello world
-        </div>
-    </main>
-  );
-}
+const Home: NextPage = () => <div>Home</div>;
+
+export default Home;
